@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="pref_date_format_option_labels">
+        <item>@string/pref_date_format_dd_MM_yyyy_label</item>
+        <item>@string/pref_date_format_MM_dd_yyyy_label</item>
+        <item>@string/pref_date_format_yyyy_MM_dd_label</item>
+        <item>@string/pref_date_format_ddd_dd_MM_yyyy_label</item>
+        <item>@string/pref_date_format_ddd_dd_MMM_yyyy_label</item>
+        <!--<item>@string/</item>-->
+    </array>
+
+    <array name="pref_date_format_option_values">
+        <item>@string/pref_date_format_dd_MM_yyyy_value</item>
+        <item>@string/pref_date_format_MM_dd_yyyy_value</item>
+        <item>@string/pref_date_format_yyyy_MM_dd_value</item>
+        <item>@string/pref_date_format_ddd_dd_MM_yyyy_value</item>
+        <item>@string/pref_date_format_ddd_dd_MMM_yyyy_value</item>
+    </array>
+
+    <array name="pref_time_format_option_labels">
+        <item>@string/pref_time_format_HH_mm_ss_label</item>
+    </array>
+
+    <array name="pref_time_format_option_values">
+        <item>@string/pref_time_format_HH_mm_ss_value</item>
+    </array>
+</resources>

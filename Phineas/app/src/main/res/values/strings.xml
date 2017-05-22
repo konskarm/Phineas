@@ -1,0 +1,104 @@
+<resources>
+    <string name="app_name">Phineas</string>
+
+
+    <!--Strings used in the Main Activity-->
+
+    <string name="bank_account_label">Bank Account:</string>
+    <string name="wallet_label">Wallet:</string>
+    <string name="button_add_detailed_transaction_label">Add Detailed Transaction</string>
+    <string name="recent_transactions_label">Recent Transactions:</string>
+    <string name="amount_hint">Amount</string>
+    <string name="list_item_amount_label">Amount:  </string>
+    <string name="list_item_name_label">    Reason: </string>
+    <string name="reason_hint">Reason</string>
+
+
+    <!--Strings used in the Transaction Details Activity-->
+
+    <string name="tv_transaction_details_reason_label">Reason:</string>
+    <string name="et_transaction_details_reason">Reason (Optional)</string>
+    <string name="tv_transaction_details_amount_label">Amount: </string>
+    <string name="et_transaction_details_amount">Amount</string>
+    <string name="tv_transaction_details_category_label">Category:</string>
+    <string name="et_transaction_details_category">Add a category (optional)</string>
+    <string name="tv_transaction_details_description_label">Description:</string>
+    <string name="et_transaction_details_description">Add a description (optional)</string>
+    <string name="tv_transaction_details_label">Transaction Details:</string>
+    <string name="hint_optional">(Optional)</string>
+    <string name="tv_transaction_details_date_label">Date:</string>
+    <string name="hint_default_datetime">Default: Current Datetime</string>
+    <string name="tv_transaction_details_time_label">Time:</string>
+
+
+    <!--Menu item names-->
+    <string name="menu_item_edit">Edit</string>
+    <string name="menu_item_save">Save</string>
+    <string name="menu_item_transfer_money">Transfer Money</string>
+    <string name="menu_item_delete_transactions">Clear all transactions</string>
+    <string name="menu_item_settings">Settings</string>
+
+
+    <!--Transfer money between balances popup dialog strings-->
+
+    <string name="transfer_money_between_balances_label">Transfer Money</string>
+    <string name="transfer_money_from_default">Account</string>
+    <string name="transfer_money_to_default">Wallet</string>
+    <string name="account">Account</string>
+    <string name="wallet">Wallet</string>
+    <string name="dialog_button_positive_label">OK</string>
+    <string name="dialog_button_cancel_label">Cancel</string>
+
+
+    <!--Remove Transaction Alert Dialog Strings-->
+
+    <string name="remove_transaction_alert_dialog_title">Delete Transaction</string>
+    <string name="remove_transaction_alert_dialog_message">The transaction will be deleted.
+        \nDo you also want to reverse the effect it had on the Wallet balance?</string>
+    <string name="remove_transaction_alert_dialog_yes_button">Yes</string>
+    <string name="remove_transaction_alert_dialog_cancel_button">Cancel</string>
+    <string name="remove_transaction_alert_dialog_no_button">No</string>
+
+
+    <!-- - - - - - - - - - - - -  -->
+    <!--Shared preferences strings-->
+    <!-- - - - - - - - - - - - -  -->
+
+    <string name="pref_display_account_balance_key">display_account_balance</string>
+    <string name="pref_display_account_balance_label">Display Account Balance</string>
+
+    <!--Date format list preference strings-->
+    <string name="pref_date_format_label">Select Date Format</string>
+    <string name="pref_date_format_default_value">yyyy-MM-dd</string>
+    <string name="pref_date_format_key">date_format</string>
+
+    <string name="pref_date_format_yyyy_MM_dd_label">2017-05-17</string>
+    <string name="pref_date_format_yyyy_MM_dd_value">yyyy-MM-dd</string>
+
+    <string name="pref_date_format_MM_dd_yyyy_label">05-17-2017</string>
+    <string name="pref_date_format_MM_dd_yyyy_value">MM-dd-yyyy</string>
+
+    <string name="pref_date_format_dd_MM_yyyy_label">17-05-2017</string>
+    <string name="pref_date_format_dd_MM_yyyy_value">dd-MM-yyyy</string>
+
+    <string name="pref_date_format_ddd_dd_MMM_yyyy_label">Wed, 17/May/2017</string>
+    <string name="pref_date_format_ddd_dd_MMM_yyyy_value">EEE, dd/MMM/yyyy</string>
+
+    <string name="pref_date_format_ddd_dd_MM_yyyy_label">Wed, 17/03/2017</string>
+    <string name="pref_date_format_ddd_dd_MM_yyyy_value">EEE, dd/MM/yyyy</string>
+
+    <!--Time format list preference strings-->
+    <string name="pref_time_format_label">Select Time Format</string>
+    <string name="pref_time_format_default_value">HH:mm:ss</string>
+    <string name="pref_time_format_key">time_format</string>
+
+    <string name="pref_time_format_HH_mm_ss_label">14:30:24</string>
+    <string name="pref_time_format_HH_mm_ss_value">HH:mm:ss</string>
+
+
+    <!-- - - - - - - - - -->
+    <!--TabLayout Strings-->
+    <!-- - - - - - - - - -->
+    <string name="main_activity_tab_recent_transactions">Recent Transactions</string>
+    <string name="main_activity_tab_calendar">Total Expenses per Day</string>
+</resources>

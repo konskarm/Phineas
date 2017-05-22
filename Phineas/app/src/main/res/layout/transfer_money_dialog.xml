@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_transfer_money_between_balances_amount"
+        android:hint="@string/amount_hint"
+        android:inputType="numberDecimal"
+        android:textAlignment="center"
+        android:layout_centerHorizontal="true"/>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/et_transfer_money_between_balances_amount"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/linear_layout"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_transfer_money_from"
+            android:text="@string/transfer_money_from_default"
+            android:textSize="22sp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="25dp"/>
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/transfer_icon"
+            android:id="@+id/ib_transfer_money"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_transfer_money_to"
+            android:text="@string/transfer_money_to_default"
+            android:textSize="22sp"
+            android:layout_gravity="end"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="25dp"/>
+
+
+    </RelativeLayout>
+
+
+
+
+</RelativeLayout>

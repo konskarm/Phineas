@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorPlusButton">#12c62a</color>
+    <color name="colorMinusButton">#c8ff0005</color>
+    <color name="colorGridLayout">#aec2ea</color>
+    <color name="colorRecentTransactions">#dde4f1</color>
+    <color name="colorViewSeparator">#dadada</color>
+    <color name="colorDateTimeTransaction">#a16600</color>
+    <color name="colorTextColor">#000000</color>
+    <color name="colorBackgroundTransactionListItem">#efe7e7e7</color>
+    <color name="colorTransactionListItemReasonText">#000000</color>
+    <color name="colorPlusButtonPressed">#ddbbe1c0</color>
+    <color name="colorMinusButtonPressed">#ffa2ab</color>
+    <color name="colorTopLayout">#adb9e4</color>
+
+</resources>
